@@ -1,0 +1,87 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f8f9fb;
+    color: #333;
+}
+
+header {
+    background: #0b1f3a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.hero {
+    padding: 40px;
+    text-align: center;
+    background: white;
+}
+
+.skills, .projects, .why-me {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background: #0b1f3a;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #162c53;
+}
+
+.btn-secondary {
+    background: #e3e6ec;
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #cfd3d9;
+}
+
+.insight-points {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.insight-points li {
+    margin-bottom: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b1f3a;
+    color: white;
+}
